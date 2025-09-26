@@ -64,5 +64,5 @@ def ingest_files(file_paths: List[str], collection_name="docs"):
 
 if __name__ == "__main__":
     # Example usage: run `python ingest.py` to ingest sample files
-    sample_files = ["../data/sample.pdf"]
+    sample_files = ["temp_upload.pdf"]
     ingest_files(sample_files)
